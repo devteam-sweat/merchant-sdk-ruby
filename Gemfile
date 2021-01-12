@@ -2,7 +2,7 @@ source 'https://rubygems.org'
 
 gemspec
 
-gem 'paypal-sdk-core', :git => "https://github.com/seanliang-1988/sdk-core-ruby.git"
+gem 'paypal-sdk-core', :git => "https://github.com/seanliang-1988/sdk-core-ruby.git", ref: '2f9547b'
 
 if File.exist? File.expand_path('../samples/merchant_samples.gemspec', __FILE__)
   gem 'merchant_samples', :path => 'samples', :require => false
