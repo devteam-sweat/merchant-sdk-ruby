@@ -18,6 +18,4 @@ Gem::Specification.new do |gem|
   gem.executables   = gem.files.grep(%r{^bin/}).map{ |f| File.basename(f) }
   gem.test_files    = gem.files.grep(%r{^(test|spec|features)/})
   gem.require_paths = ["lib"]
-
-  gem.add_dependency('paypal-sdk-core', :git => "https://github.com/seanliang-1988/sdk-core-ruby.git", ref: '2f9547b')
 end
